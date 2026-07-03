@@ -30,6 +30,10 @@
         menu.classList.toggle("open");
       });
     }
+
+    document.querySelectorAll("[data-user][data-domain]").forEach(function (el) {
+      el.setAttribute("href", "mailto:" + el.dataset.user + "@" + el.dataset.domain);
+    });
   });
 
   function updateToggleLabel(toggle) {
