@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Research — Rajsekhar Mohapatra</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.png" />
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="nav-inner">
+    <a class="brand" href="index.html">
+      <img src="assets/img/headshot-small.jpg" alt="" />
+      Rajsekhar Mohapatra
+    </a>
+    <button class="nav-toggle" aria-label="Toggle menu">☰</button>
+    <nav class="menu">
+      <a href="index.html">Home</a>
+      <a href="research.html" class="active">Research</a>
+      <a href="publications.html">Publications</a>
+      <a href="conferences.html">Conferences</a>
+      <a href="outreach.html">Outreach</a>
+      <a href="contact.html">Contact</a>
+      <button class="theme-toggle" aria-label="Toggle dark mode"></button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <h1>Research</h1>
+
+    <div class="section-block">
+      <span class="tag">Postdoctoral research · 2022–ongoing</span>
+      <h2>Type Ia supernovae in massive ellipticals</h2>
+
+      <h3>Local patch simulations</h3>
+      <p>We modeled small portions of the interstellar medium (ISM) of an elliptical galaxy using <a href="https://github.com/IAS-Astrophysics/athenak" target="_blank" rel="noopener">AthenaK</a>, and seeded type Ia supernovae (SNIa) that both heat the medium and drive turbulence in the ISM. We studied whether the SNIa can keep the ISM in a steady state, provided the heating balances the cooling. In our local patch simulations, we found the system always overheats once the cooling drops below the heating. We are currently performing global simulations of an isolated massive elliptical galaxy to study the long-term evolution of such a system with appropriate geometry.</p>
+
+      <h3>Global simulations</h3>
+      <p>Using 3D hydrodynamic simulations, we studied the central regions of massive galaxies, focusing on NGC 1399, including radiative cooling and mass and energy injection from AGB winds and SNIa, but excluding black hole feedback. Our simulations matched observed density and entropy profiles and revealed two steady-state profiles over 100 Myr: (i) a cooling flow if SNIa heating is less than cooling, and (ii) a slow subsonic outflow of AGB ejecta if SNIa heating is comparable to or exceeds cooling. This outflow, pressure-confined by the circumgalactic medium (CGM), adapts the ISM to CGM properties, influencing black hole accretion rates. We also showed that approximate methods of modeling heating due to type Ia supernovae, such as clustered supernovae and smooth heat distribution, fail to reproduce the observed density and entropy profiles of the ISM.</p>
+
+      <h2>Stratified multiphase turbulence</h2>
+      <p>We modeled a patch of the intracluster medium (ICM) using <a href="http://flash.uchicago.edu/site/" target="_blank" rel="noopener">FLASH</a>, driving turbulence and including radiative cooling. We derived a new condensation criterion for cold gas to condense out of the hot ICM, which takes into account the effects of both turbulent mixing and buoyant motions that prevent the formation of cold gas.</p>
+
+      <h3>Publications</h3>
+      <ul class="pub-list">
+        <li class="pub">
+          <a class="pub-title" href="https://ui.adsabs.harvard.edu/abs/2025arXiv251100229M/abstract" target="_blank" rel="noopener">The Type Ia Supernova and AGB-Regulated Interstellar Medium of Massive Galaxies</a>
+          <span class="pub-meta">Mohapatra R, Quataert E, Fielding D, Guo M · submitted to ApJ, 2025</span>
+        </li>
+        <li class="pub">
+          <a class="pub-title" href="https://ui.adsabs.harvard.edu/abs/2024ApJ...965..105M/abstract" target="_blank" rel="noopener">Multiphase Gas in Elliptical Galaxies: The Role of Type Ia Supernovae</a>
+          <span class="pub-meta">Mohapatra R, Quataert E · ApJ, 2024</span>
+        </li>
+        <li class="pub">
+          <a class="pub-title" href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.525.3831M/abstract" target="_blank" rel="noopener">Multiphase condensation in cluster haloes: interplay of cooling, buoyancy, and mixing</a>
+          <span class="pub-meta">Mohapatra R, Federrath C, Sharma P, Quataert E · MNRAS, 2023</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section-block">
+      <span class="tag">PhD thesis · 2018–2022</span>
+      <h2>Multiphase turbulence</h2>
+      <p>We performed local idealised simulations of gas in the intracluster medium using <a href="http://flash.uchicago.edu/site/" target="_blank" rel="noopener">FLASH</a>. We studied the effect of turbulence driving on gas properties such as morphology and density and temperature distribution functions. We also studied the different sources and sinks of enstrophy, i.e. solenoidal motions, as well as the kinematics of hot (~10<sup>7</sup> K) X-ray emitting and cold (~10<sup>4</sup> K) H&alpha; emitting gas.</p>
+
+      <p>In an earlier study, we studied the effect of varying levels of turbulent feedback on these different statistical properties of gas. We also looked at the modes of perturbation of the gas, and the interactions and transitions between different temperature phases, the effect of magnetic fields, and two different idealised heating models. We find that a weakly turbulent feedback scenario best explains the observations of the multiphase ICM. The simulation movies are available as a YouTube <a href="https://www.youtube.com/watch?v=F8QsytVrsws&list=PLuaNgQ1v_KMathKae1SF2nKuJWzL9DQTt" target="_blank" rel="noopener">playlist</a>.</p>
+
+      <p>In a companion study, we studied the velocity structure functions (VSFs) in these high-resolution multiphase turbulence simulations, which are important in interpreting measurements of the kinematics of H&alpha; filaments in cool core clusters. We looked at VSFs of hot and cold temperature phases separately, and studied the effect of our two idealised heating models (mass-weighted vs volume-weighted) and magnetic fields. We also discussed the effect of projection along the line of sight on the VSFs of hot and cold phase gas, and compared them with recent observations.</p>
+
+      <h3>Publications</h3>
+      <ul class="pub-list">
+        <li class="pub">
+          <a class="pub-title" href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.3139M/abstract" target="_blank" rel="noopener">Multiphase turbulence in galactic halos: effect of the driving</a>
+          <span class="pub-meta">Mohapatra R, Federrath C, Sharma P · MNRAS, 2022</span>
+        </li>
+        <li class="pub">
+          <a class="pub-title" href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.2327M/abstract" target="_blank" rel="noopener">Velocity structure functions in multiphase turbulence: interpreting kinematics of H&alpha; filaments in cool core clusters</a>
+          <span class="pub-meta">Mohapatra R, Jetti M, Sharma P, Federrath C · MNRAS, 2022</span>
+        </li>
+        <li class="pub">
+          <a class="pub-title" href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.510.3778M/abstract" target="_blank" rel="noopener">Characterizing the turbulent multiphase halos with periodic box simulations</a>
+          <span class="pub-meta">Mohapatra R, Jetti M, Sharma P, Federrath C · MNRAS, 2022</span>
+        </li>
+      </ul>
+
+      <h2>Stratified turbulence</h2>
+      <p>We studied the effect of stratification on turbulence and its implications for the ICM. We derived a new scaling relation between the amplitude of density fluctuations, the degree of stratification (denoted by the Froude number), and the rms Mach number of the flow. We found the pressure fluctuations to be independent of the degree of stratification. In observations of galaxy clusters, the density and pressure variations show up as fluctuations in the X-ray surface brightness and the thermal Sunyaev–Zel'dovich effect, respectively. Simulation movies are available on the <a href="movies/stratified-turbulence.html">stratified turbulence movies page</a>.</p>
+
+      <h3>Publications</h3>
+      <ul class="pub-list">
+        <li class="pub">
+          <a class="pub-title" href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.500.5072M/abstract" target="_blank" rel="noopener">Turbulent density and pressure fluctuations in the stratified intracluster medium</a>
+          <span class="pub-meta">Mohapatra R, Federrath C, Sharma P · MNRAS, 2021</span>
+        </li>
+        <li class="pub">
+          <a class="pub-title" href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.493.5838M/abstract" target="_blank" rel="noopener">Turbulence in stratified atmospheres: implications for the intracluster medium</a>
+          <span class="pub-meta">Mohapatra R, Federrath C, Sharma P · MNRAS, 2020</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section-block">
+      <span class="tag">Bachelor thesis · 2017–2018</span>
+      <h2>Turbulent heating in cool cluster cores</h2>
+      <p>We used <a href="http://plutocode.ph.unito.it/" target="_blank" rel="noopener">PLUTO</a> to simulate gas in the intracluster medium. We studied the importance of turbulent heating in achieving thermal balance in cool cluster cores. Simulation movies are available on the <a href="movies/bachelor-thesis.html">bachelor thesis movies page</a> and also as a YouTube <a href="https://www.youtube.com/playlist?list=PLuaNgQ1v_KMaqM7RgKd8gd2daEjqmmIMO" target="_blank" rel="noopener">playlist</a>.</p>
+
+      <h3>Publications</h3>
+      <ul class="pub-list">
+        <li class="pub">
+          <a class="pub-title" href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.484.4881M/abstract" target="_blank" rel="noopener">Turbulence in the intracluster medium: simulations, observables & thermodynamics</a>
+          <span class="pub-meta">Mohapatra R, Sharma P · MNRAS, 2019</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <span>© 2026 Rajsekhar Mohapatra</span>
+    <span><a href="mailto:rmohapatra@princeton.edu">rmohapatra@princeton.edu</a></span>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
