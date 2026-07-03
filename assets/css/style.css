@@ -51,6 +51,14 @@ h1, h2, h3, h4 {
 h1 { font-size: 2.1rem; }
 h2 { font-size: 1.5rem; margin-top: 2.2em; }
 h3 { font-size: 1.15rem; margin-top: 1.6em; color: var(--accent-dark); }
+h4 {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  margin-top: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+}
 
 p { margin: 0 0 1.1em 0; }
 
@@ -274,18 +282,6 @@ main {
 
 /* Timeline-ish sections on research page */
 .section-block { margin-bottom: 2.4em; }
-
-.tag {
-  display: inline-block;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--accent-dark);
-  background: var(--bg-alt);
-  border-radius: 999px;
-  padding: 3px 10px;
-  margin-bottom: 0.6em;
-}
 
 /* Video grid for movie pages */
 .video-grid {
