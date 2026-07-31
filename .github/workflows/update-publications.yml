@@ -21,19 +21,19 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Sync publications.html from SciX library
+      - name: Sync publications.html and research.html from SciX library
         env:
           ADS_API_TOKEN: ${{ secrets.ADS_API_TOKEN }}
         run: python scripts/update_publications.py
 
       - name: Commit changes if any
         run: |
-          if git diff --quiet -- publications.html; then
+          if git diff --quiet -- publications.html research.html; then
             echo "No publication changes."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add publications.html
+          git add publications.html research.html
           git commit -m "Auto-update publications from SciX library"
           git push

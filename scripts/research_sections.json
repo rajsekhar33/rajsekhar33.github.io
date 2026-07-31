@@ -1,0 +1,28 @@
+{
+  "_comment": "Maps each research.html <!-- AUTO-GENERATED:<KEY>:... --> block to an ordered list of papers from the SciX library. Use the ADS bibcode for published papers (e.g. 2025ApJ...989..103M) or the bare arXiv id for preprints (e.g. 2606.04093). update_publications.py resolves these against the library and rewrites the matching block in research.html. New library papers aren't auto-added to a section here -- add them manually to keep the topic grouping meaningful, or they'll just show up in publications.html.",
+
+  "SNIA": [
+    "2025ApJ...989..103M",
+    "2024ApJ...965..105M",
+    "2023MNRAS.525.3831M"
+  ],
+  "TRML": [
+    "2606.04087",
+    "2606.04093"
+  ],
+  "DRIVING": [
+    "2606.14946"
+  ],
+  "PHD_MULTIPHASE": [
+    "2022MNRAS.514.3139M",
+    "2022MNRAS.510.2327M",
+    "2022MNRAS.510.3778M"
+  ],
+  "PHD_STRATIFIED": [
+    "2021MNRAS.500.5072M",
+    "2020MNRAS.493.5838M"
+  ],
+  "BACHELOR": [
+    "2019MNRAS.484.4881M"
+  ]
+}
