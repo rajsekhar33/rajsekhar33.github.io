@@ -40,7 +40,7 @@
       <h3>Type Ia supernovae in massive ellipticals</h3>
 
       <h4>Local patch simulations</h4>
-      <p>We modeled small portions of the interstellar medium (ISM) of an elliptical galaxy using <a href="https://github.com/IAS-Astrophysics/athenak" target="_blank" rel="noopener">AthenaK</a>, and seeded type Ia supernovae (SNIa) that both heat the medium and drive turbulence in the ISM. We studied whether the SNIa can keep the ISM in a steady state, provided the heating balances the cooling. In our local patch simulations, we found the system always overheats once the cooling drops below the heating. We are currently performing global simulations of an isolated massive elliptical galaxy to study the long-term evolution of such a system with appropriate geometry.</p>
+      <p>We modeled small portions of the interstellar medium (ISM) of an elliptical galaxy using <a href="https://github.com/IAS-Astrophysics/athenak" target="_blank" rel="noopener">AthenaK</a>, and seeded type Ia supernovae (SNIa) that both heat the medium and drive turbulence in the ISM. We studied whether the SNIa can keep the ISM in a steady state, provided the heating balances the cooling. In our local patch simulations, we found the system always overheats once the cooling drops below the heating. I subsequently extended this work to global simulations of an isolated massive elliptical galaxy, described below.</p>
 
       <h4>Global simulations</h4>
       <p>Using 3D hydrodynamic simulations, we studied the central regions of massive galaxies, focusing on NGC 1399, including radiative cooling and mass and energy injection from AGB winds and SNIa, but excluding black hole feedback. Our simulations matched observed density and entropy profiles and revealed two steady-state profiles over 100 Myr: (i) a cooling flow if SNIa heating is less than cooling, and (ii) a slow subsonic outflow of AGB ejecta if SNIa heating is comparable to or exceeds cooling. This outflow, pressure-confined by the circumgalactic medium (CGM), adapts the ISM to CGM properties, influencing black hole accretion rates. We also showed that approximate methods of modeling heating due to type Ia supernovae, such as clustered supernovae and smooth heat distribution, fail to reproduce the observed density and entropy profiles of the ISM.</p>
@@ -66,12 +66,18 @@
       <!-- AUTO-GENERATED:SNIA:END -->
       </ul>
 
-      <h3>Turbulent radiative mixing layers</h3>
-      <p>In collaboration with Lachlan Lancaster (Columbia/Flatiron), Drummond Fielding (NYU) and Greg Bryan (Columbia), we study turbulent radiative mixing layers (TRMLs), the interfaces between hot and cold gas phases where turbulent mixing and radiative cooling compete to set the structure and cooling rate of intermediate-temperature gas. We show that the apparent numerical convergence of cooling rates in these simulations is a fortuitous cancellation of numerical errors, and derive the resolution needed to correctly capture the mixing layer's phase structure. We also explain why the energy radiated by a TRML scales differently with the Damköhler number in the fast-cooling regime: the ram pressure of inflowing gas suppresses turbulent folding of the mixing surface, reducing its fractal area. I am extending this work by running 3D MHD simulations to study how magnetic fields affect turbulent mixing and cooling in these layers.</p>
+      <h3 id="mixing-layers">Turbulent radiative mixing layers</h3>
+      <p>I study how hot and cold gas mix at their boundaries, creating intermediate-temperature material that can cool rapidly. With Lachlan Lancaster, Drummond Fielding and Greg Bryan, I have investigated how the structure of these interfaces controls their cooling. Our hydrodynamic studies show that apparently converged cooling rates can conceal compensating numerical effects. We also find that rapid cooling drives inflows that reduce the turbulent folding of the interface, changing how its cooling rate scales.</p>
+
+      <p>In my new submitted paper with Lachlan Lancaster, Drummond Fielding, Eliot Quataert and Greg Bryan, I investigate how magnetic fields change this picture. Using AthenaK simulations with over four billion cells, I find that even initially weak fields can strongly suppress mixing and cooling by reducing turbulent motions and the folding of gas interfaces. The strength of this suppression depends on magnetic geometry and remains resolution-dependent. These results motivate physically controlled calculations of transport across magnetized interfaces, with implications for cold-gas survival in galactic winds and cluster atmospheres. <a href="movies/index.html#mixing-layers">Watch the simulation movies →</a></p>
 
       <h4>Publications</h4>
       <ul class="pub-list">
       <!-- AUTO-GENERATED:TRML:START -->
+        <li class="pub">
+          <a class="pub-title" href="https://arxiv.org/abs/2609.29782" target="_blank" rel="noopener">How Magnetic Fields Regulate Cooling and Mixing in Turbulent Radiative Mixing Layers</a>
+          <span class="pub-meta">Mohapatra R, Lancaster L, Fielding D, Quataert E, Bryan GL · arXiv preprint (submitted), 2026</span>
+        </li>
         <li class="pub">
           <a class="pub-title" href="https://ui.adsabs.harvard.edu/abs/2026ApJ..1005..222L/abstract" target="_blank" rel="noopener">Ceci n'est pas une Couche de Mélange: The Meaning of Resolved Turbulent Radiative Mixing</a>
           <span class="pub-meta">Lancaster L, Mohapatra R, Fielding DB, Bryan GL · ApJ, 2026</span>
@@ -81,6 +87,18 @@
           <span class="pub-meta">Lancaster L, Fielding D, Mohapatra R, Bryan GL · ApJ, 2026</span>
         </li>
       <!-- AUTO-GENERATED:TRML:END -->
+      </ul>
+
+      <h3 id="cloud-complexes">Cold gas in circumgalactic cloud complexes</h3>
+      <p>With Alankar Dutta and Prateek Sharma, I use high-resolution magnetohydrodynamic simulations to investigate cold gas embedded in turbulent galactic haloes. I study how cooling and mixing compete to determine the abundance and lifetime of cold structures, and how magnetic fields affect their evolution. <a href="movies/index.html#cloud-complexes">Watch the simulation movies →</a></p>
+      <h4>Publications</h4>
+      <ul class="pub-list">
+      <!-- AUTO-GENERATED:CGM_CLOUDS:START -->
+        <li class="pub">
+          <a class="pub-title" href="https://ui.adsabs.harvard.edu/abs/2026OJAp....964831M/abstract" target="_blank" rel="noopener">Multiphase gas in Circumgalactic cloud complexes: Insights from kiloparsec-scale Magnetohydrodynamic Turbulence Simulations</a>
+          <span class="pub-meta">Mohapatra R, Dutta A, Sharma P · OJAp, 2026</span>
+        </li>
+      <!-- AUTO-GENERATED:CGM_CLOUDS:END -->
       </ul>
 
       <h3>Turbulence driving mechanisms</h3>
@@ -163,7 +181,7 @@
 <footer class="site-footer">
   <div class="container">
     <span>© 2026 Rajsekhar Mohapatra</span>
-    <span><a data-user="rmohapatra" data-domain="princeton.edu">rmohapatra[AT]princeton[dot]edu</a></span>
+    <span><a data-user="rajsekhar.mohapatra" data-domain="alumni.anu.edu.au">rajsekhar.mohapatra[AT]alumni.anu[dot]edu[dot]au</a></span>
     <span><a href="https://orcid.org/0000-0002-1600-7552" target="_blank" rel="noopener">ORCID</a></span>
   </div>
 </footer>
